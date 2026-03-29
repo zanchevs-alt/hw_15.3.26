@@ -41,8 +41,8 @@ def group_numbers(nums: list) -> dict:
             nums_dict["negative"].append(num)
         else:
             nums_dict["zero"].append(num)
-    return nums_dict
 
+    return nums_dict
 
 numbers = [4, -2, 0, 7, -5, 3]
 print(group_numbers(numbers))
